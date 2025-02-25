@@ -13,15 +13,5 @@
                 "https://www.youtube.com/*"
             ]
         }
-    ],
-    "externally_connectable": {
-        "matches": [
-            "https://www.tiktok.com/*",
-            "https://www.youtube.com/*"
-        ]
-    },
-    "permissions": [
-        "activeTab",
-        "storage"
     ]
 }
