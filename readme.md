@@ -1,1 +1,1 @@
-![adolf hitler](documentation\screenshot.png)
+![adolf hitler](documentation/screenshot.png)
