@@ -5,11 +5,11 @@
     "manifest_version": 3,
     "action": {
       "default_popup": "index.html",
-      "default_icon": "images/images.png"
+      "default_icon": "/images/images.png"
     },
     "web_accessible_resources": [
         {
-            "resources": [ "/images/*"],
+            "resources": [ "/images/images.png"],
             "matches": ["<all_urls>"]
         }
     ],
