@@ -9,10 +9,12 @@
     },
     "content_scripts": [
         {
-            "js": "scripts/content.js",
+            "js": [
+                "scripts/content.js"
+            ],
             "matches": [
-                "https://www.tiktok.com/",
-                "https://www.youtube.com/"
+                "https://www.tiktok.com/*",
+                "https://www.youtube.com/*"
             ]
         }
     ]
