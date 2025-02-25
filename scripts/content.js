@@ -1,2 +1,7 @@
-document.body.innerHTML = "<img src=\"" + chrome.runtime.getURL("/images/images.png") +"\">"; // https://raw.githubusercontent.com/Rohamunira/adolf-hitler-stopping-you/refs/heads/main/images/images.png
-document.style = "background-color: #000;";
+document.addEventListener('DOMContentLoaded', function() {
+    images = document.createElement("img");
+    images.src = chrome.runtime.getURL("/images/images.png");
+    document.body.innerHTML = ""; // https://raw.githubusercontent.com/Rohamunira/adolf-hitler-stopping-you/refs/heads/main/images/images.png
+    document.body.appendChild(images);
+    document.style = "background-color: #000;";
+});
