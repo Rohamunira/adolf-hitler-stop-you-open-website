@@ -1,2 +1,2 @@
-document.body.innerHTML = "<img src=\"" + runtime.geturl("images/images.png") +"\">"; // https://raw.githubusercontent.com/Rohamunira/adolf-hitler-stopping-you/refs/heads/main/images/images.png
+document.body.innerHTML = "<img src=\"" + chrome.runtime.geturl("images/images.png") +"\">"; // https://raw.githubusercontent.com/Rohamunira/adolf-hitler-stopping-you/refs/heads/main/images/images.png
 document.style = "background-color: #000;";
