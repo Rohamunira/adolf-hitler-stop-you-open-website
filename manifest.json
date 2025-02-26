@@ -3,6 +3,10 @@
     "description": "chrome extensions project when you enter to site that maybe in your opinion can disturb your productive time, it will show adolf hitler image that try to stopping you",
     "version": "1.0",
     "manifest_version": 3,
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "/images/images.png"
+    },
     "content_scripts": [
         {
             "js": [
